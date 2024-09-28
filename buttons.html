@@ -1,0 +1,85 @@
+<style>
+  .subscribe-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    margin-right: 5px;
+    margin-left: 3px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active{
+    opacity: 0.5;
+  }
+
+  .join-button{
+    background-color: white;
+    border-color: rgb(16, 91, 197);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(16, 91, 197);
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+    /*ここにtranstionを書く理由：もしも:hoverのセレクタ内に書いてしまうとhover時のみ反応してカーソルを外す時とかの他のイベントの時に動かないから*/
+    transition: background-color 0.15s,
+      color 0.15s
+    ;
+    vertical-align: top;
+  }
+
+  .join-button:hover{
+    background-color: rgb(16, 91, 197);
+    color: white;
+  }
+
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+  .tweet-button{
+    background-color: rgb(65, 137, 226);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 8px 16px;
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+
+</style>
+
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+<button class="join-button">
+  JOIN
+</button>
+<button class="tweet-button">
+  Tweet
+</button>
