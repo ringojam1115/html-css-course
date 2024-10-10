@@ -6,7 +6,7 @@
     <style>
       .introduction-tile {
         display: inline-block;
-        height: 320px;
+        height: 305px;
         width: 200px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         margin: 10px 10px;
@@ -19,20 +19,34 @@
         object-fit: cover;
       }
 
+      .icon-img {
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+        border-radius: 12px;
+        vertical-align: middle;
+        margin-left: 8px;
+        margin-top: 3px;
+      }
+
       .intro-name {
         font-size: 18px;
         font-weight: bold;
+        font-family: Arial;
         margin-top: 3px;
         margin-left: 8px;
         margin-bottom: 0;
       }
 
       .intro-friends {
+        display: inline-block;
         font-size: 15px;
+        font-family: Arial;
         color: gray;
         margin-top: 3px;
-        margin-left: 8px;
+        margin-left: 4px;
         margin-bottom: 0;
+        vertical-align: middle;
       }
 
       .add-button {
@@ -43,7 +57,7 @@
         font-size: 15px;
         padding: 10px 18px;
         margin-left: 8px;
-        margin-top: 10px;
+        margin-top: 6px;
         cursor: pointer;
       }
     </style>
@@ -51,23 +65,38 @@
   <body>
     <div class="introduction-tile">
       <img class="animal-img" src="animals/animal1.webp">
-      <p class="intro-name">Oliver</p>
-      <p class="intro-friends">2 mutual friends</p>
-      <button class="add-button">Add Friend</button>
+      <div>
+        <p class="intro-name">Oliver</p>
+        <div>
+          <img class="icon-img" src="animals/dog2.jpg">
+          <p class="intro-friends">2 mutual friends</p>
+        </div>
+        <button class="add-button">Add Friend</button>
+      </div>
     </div>
 
     <div class="introduction-tile">
       <img class="animal-img" src="animals/animal2.jpg">
-      <p class="intro-name">Mimi</p>
-      <p class="intro-friends">3 mutual friends</p>
-      <button class="add-button">Add Friend</button>
+      <div>
+        <p class="intro-name">Mimi</p>
+        <div>
+          <img class="icon-img" src="animals/dog2.jpg">
+          <p class="intro-friends">3 mutual friends</p>
+        </div>
+        <button class="add-button">Add Friend</button>
+      </div>
     </div>
 
     <div class="introduction-tile">
       <img class="animal-img" src="animals/animal3.jpg">
-      <p class="intro-name">Rex</p>
-      <p class="intro-friends">4 mutual friends</p>
-      <button class="add-button">Add Friend</button>
+      <div>
+        <p class="intro-name">Rex</p>
+        <div>
+          <img class="icon-img" src="animals/dog2.jpg">
+          <p class="intro-friends">4 mutual friends</p>
+        </div>
+        <button class="add-button">Add Friend</button>
+      </div>
     </div>
   </body>
 </html>
