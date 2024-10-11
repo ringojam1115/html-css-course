@@ -44,19 +44,17 @@
       }
 
       .channel-picture {
-        display: inline-block;
-        width: 50px;
         vertical-align: top;
       }
 
-      .video-info {
-        display: inline-block;
-        width: 200px;
-        margin-left: 8px;
+
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
       }
 
-      .profile-picture {
-        width: 100%;
+      .profile-picture { 
+        width: 40px;
         border-radius: 50px;
       }
 
@@ -73,6 +71,11 @@
       .video-author {
         margin-bottom: 4px;
       }
+
+      .video-info,
+      .channel-picture {
+        background-color: gray;
+      }
     
     </style>
   </head>
@@ -86,7 +89,7 @@
         <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
         </div>
@@ -109,13 +112,13 @@
         <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture">
           <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
         </div>
         <div class="video-info">
           <p class="video-title">
-            Try Not To Laugh Challenge #9
+            Try Not To Laugh Challe nge #9
           </p>
           <p class="video-author">
             Markiplier

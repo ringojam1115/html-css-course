@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Grid Practice</title>
+    <style>
+      .grid-practice {
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 50px;
+      }
+
+      .div1,
+      .div4,
+      .div-11c {
+        background-color: lightcoral;
+      }
+
+      .div2,
+      .div3,
+      .div5 {
+        background-color: lightblue;
+      }
+
+      .grid-practice2 {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 50px;
+      }
+
+      .practice-11c {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px
+        ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-practice">
+      <div class="div1">200px</div>
+      <div class="div2">75px</div>
+    </div>
+
+    <div class="grid-practice2">
+      <div class="div3">col1</div>
+      <div class="div4">col2</div>
+      <div class="div5">col3</div>
+    </div>
+
+    <div class="practice-11c">
+      <div class="div-11c">col1</div>
+      <div class="div-11c">col2</div>
+      <div class="div-11c">col3</div>
+      <div class="div-11c">col4</div>
+      <div class="div-11c">col1</div>
+      <div class="div-11c">col2</div>
+      <div class="div-11c">col3</div>
+      <div class="div-11c">col4</div>
+    </div>
+  </body>
+</html>
