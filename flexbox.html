@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Flexbox practice</title>
+    <style>
+      .body {
+        margin: 10px;
+      }
+
+      .flexbox-12a {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+      }
+
+      .div1 {
+        background-color: lightblue;
+        width: 200px;
+      }
+
+      .div2 {
+        background-color: lightpink;
+        width: 75px;
+      }
+
+      .flexbox-12b {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+      }
+
+      .item1 {
+        background-color: lightblue;
+        width: 50px;
+      }
+
+      .item2 {
+        background-color: lightpink;
+        flex: 1;
+      }
+
+      .item3 {
+        background-color: lightblue;
+        width: 75px;
+      }
+
+      .flexbox-12c {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .item-12c {
+        background-color: lightpink;
+      }
+
+      .flexbox-12d {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border-width: 1px;
+        border-style: solid;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .item-12d {
+        background-color: lightpink;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="flexbox-12a">
+      <div class="div1">200px</div>
+      <div class="div2">75px</div>
+    </div>
+
+    <div class="flexbox-12b">
+      <div class="item1">item1</div>
+      <div class="item2">item2</div>
+      <div class="item3">item3</div>
+    </div>
+
+    <div class="flexbox-12c">
+      <div class="item-12c">item1</div>
+      <div class="item-12c">item2</div>
+      <div class="item-12c">item3</div>
+      <div class="item-12c">item4</div>
+    </div>
+
+    <div class="flexbox-12d">
+      <div class="item-12d">item1</div>
+      <div class="item-12d">item2</div>
+    </div>
+  </body>
+</html>

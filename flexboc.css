@@ -1,0 +1,138 @@
+      p {
+        font-family: Arial;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 14px;
+      }
+
+      .exe-12e {
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(186, 183, 183);
+        border-radius: 5px;
+        width: 400px;
+        margin-bottom: 20px;
+      }
+
+      .home-tag,
+      .notifications-tag,
+      .message-tag {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .number {
+        margin-right: 14px;
+        background-color: rgb(89, 148, 251);
+        color: white;
+        font-family: Arial;
+        font-size: 18px;
+        padding: 4px 14px;
+        border-radius: 13px;
+      }
+
+      .exe-12g {
+        width: 400px;
+        margin-bottom: 20px;
+      }
+
+      .user-bar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .icon {
+        width: 60px;
+      }
+
+      .icon-picture {
+        height: 60px;
+        border-radius: 30px;
+      }
+
+      .user-info {
+        text-align: start;
+        flex: 1;
+      }
+
+      .user-name,
+      .detail,
+      .popular {
+        font-size: 20px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+      .user-name {
+        font-weight: bold;
+      }
+
+      .detail,
+      .popular {
+        color: gray;
+      }
+
+      .follow-botton {
+        background-color: rgb(74, 171, 241);
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      .follow-botton-section {
+        margin-right: 10px;
+        width: 50px;
+      }
+
+      .exe-12f {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(159, 115, 255);
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+      }
+
+      .home {
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .search-box {
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 15px;
+        flex: 1;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 0;
+        max-width: 500px;
+      }
+
+      .download-section {
+        margin-right: 15px;
+      }
+
+      .download-botton {
+        background-color: rgb(159, 115, 255);
+        color: white;
+        border-color: white;
+        border-width: 1px;
+        font-size: 16px;
+        padding: 8px 14px;
+        border-style: solid;
+        border-radius: 3px;
+      }
+
+
+
+      
